@@ -32,3 +32,23 @@ nav li {
     float: right;
     width: 40em;
 }
+
+footer li {
+    width: 10em;
+    list-style: none;  
+}
+
+#social-media-links {
+    text-align: center;
+}
+
+#social-media-links > li {
+    display: inline;
+}
+
+#social-media-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
