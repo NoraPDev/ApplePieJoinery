@@ -1,0 +1,34 @@
+#home {
+    background-color: red;
+    height: 500px;
+}
+
+#services {
+    background-color: blue;
+    height: 500px;
+}
+
+#references {
+    background-color: blueviolet;
+    height: 500px;
+}
+
+#contact-us {
+    background-color: yellow;
+    height: 500px;
+}
+
+nav {
+    height: 3em;
+}
+
+nav li {
+    float: left;
+    width: 10em;
+    list-style: none;    
+}
+
+#navbar {
+    float: right;
+    width: 40em;
+}
