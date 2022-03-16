@@ -29,6 +29,7 @@ nav li {
 }
 
 #navbar {
+    position: fixed;
     float: right;
     width: 40em;
 }
