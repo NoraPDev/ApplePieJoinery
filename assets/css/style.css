@@ -52,6 +52,11 @@ nav li {
     font-size: 18px;
 }
 
+.nav-link:hover {
+    color: cornsilk;
+    text-decoration: underline;
+}
+
 .nav-link {
     text-decoration: none;
     color: white;
