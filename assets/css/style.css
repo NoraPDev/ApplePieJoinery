@@ -17,9 +17,12 @@ body {
     background-position: center;
     height: 30em;
     width: 100%;
-    background-size: cover;    
+    background-size: cover;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    
 }
-
 
 #services {
     background-color: blue;
@@ -74,6 +77,30 @@ header {
     width: 100%;
     top: 0;
 }
+
+#welcome-top {
+    color: cornsilk;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(172, 157, 99, .4);
+    padding-top: 1em;
+}
+
+#welcome-text {
+    color: cornsilk;
+    text-align: center;
+    background-color: rgb(172, 157, 99, .4);
+    height: 6em;
+}
+
+.welcome {
+    font-size: 130%;
+    letter-spacing: 4px;
+    width: auto;
+    height: 4em;
+    margin-top: 5em;
+}   
+
 
 .card-box {
     display: block;
