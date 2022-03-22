@@ -117,6 +117,10 @@ header {
     background-color: aliceblue;
 }
 
+.card-box:hover {
+    font-style: italic;
+}
+
 footer li {
     width: 10em;
     list-style: none;  
