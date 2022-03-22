@@ -100,6 +100,11 @@ header {
     margin-top: 5em;
 }   
 
+.home-content {
+    height: 800px;
+    display: inline-flex;
+    background-color: rgb(250, 235, 215, .2);
+}
 
 .card-box {
     display: block;
@@ -109,6 +114,7 @@ header {
     border: 1px solid grey;
     margin: 1em;
     padding: 1em;
+    background-color: aliceblue;
 }
 
 footer li {
