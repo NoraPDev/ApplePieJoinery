@@ -10,7 +10,6 @@ body {
 }
 
 #home {
-    margin-top: 4em;
     overflow: auto;
     background-image: url(/assets/photos/IMG_4523.jpg);
     background-repeat: no-repeat;
