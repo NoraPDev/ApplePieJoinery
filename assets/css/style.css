@@ -55,7 +55,7 @@ nav li {
 }
 
 .nav-link:hover {
-    color: cornsilk;
+    color: rgb(245, 231, 231);
     text-decoration: underline;
 }
 
