@@ -78,26 +78,28 @@ header {
 }
 
 #welcome-top {
-    color: cornsilk;
+    color: black;
     text-transform: uppercase;
+    font-size: 160%;
     text-align: center;
-    background-color: rgb(245, 231, 231, .4);
+    background-color: rgb(245, 231, 231, .6);
     padding-top: 1em;
 }
 
 #welcome-top:hover {
-    background-color: rgb(245, 231, 231, .6);
+    background-color: rgb(245, 231, 231, .9);
 }
 
 #welcome-text {
-    color: cornsilk;
+    color: black;
     text-align: center;
-    background-color: rgb(245, 231, 231, .4);
+    font-size: 140%;
+    background-color: rgb(245, 231, 231, .6);
     height: 6em;
 }
 
 #welcome-text:hover {
-    background-color: rgb(245, 231, 231, .6);
+    background-color: rgb(245, 231, 231, .9);
 }
 
 .welcome {
