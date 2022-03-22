@@ -43,9 +43,23 @@ nav li {
     list-style: none;    
 }
 
-#navbar {
+#navbar-list {
     width: 40em;
     float: right;
+    justify-content: right;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+#navbar {
+    background-color: rgb(71, 64, 51);
+    margin: 0;
+    padding: 0;
 }
 
 header {
