@@ -17,9 +17,18 @@ body {
     height: 40em;
     width: 100%;
     background-size: cover;
-    animation-name: hero-zoom;
+    animation-name: main-image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+@keyframes main-image-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 
