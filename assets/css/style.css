@@ -167,6 +167,20 @@ header {
     text-transform: uppercase;
 }
 
+#services-content {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.service-content {
+    display: flex;
+    flex-wrap: flex;
+    box-sizing: border-box;
+}
+
+
+
 footer li {
     width: 10em;
     list-style: none;  
