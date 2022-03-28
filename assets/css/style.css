@@ -171,15 +171,36 @@ header {
     width: 100%;
     display: block;
     box-sizing: border-box;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .service-content {
     display: flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
     box-sizing: border-box;
 }
 
+.line-one {
+    width: 33.33%;
+}
 
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.wardrobe {
+    padding: 0em;
+    max-width: 100%;    
+}
+
+#kitchen {
+  
+}
 
 footer li {
     width: 10em;
