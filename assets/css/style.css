@@ -155,6 +155,11 @@ header {
     padding-left: 15px;
 }
 
+.services-menu {
+    display: flex;
+    
+}
+
 footer li {
     width: 10em;
     list-style: none;  
