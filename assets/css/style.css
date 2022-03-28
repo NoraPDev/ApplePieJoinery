@@ -23,10 +23,6 @@ body {
 }
 
 
-#services {
-    background-color: blue;
-}
-
 #references {
     background-color: blueviolet;
 }
@@ -148,6 +144,15 @@ header {
 
 .card-box:hover {
     font-style: italic;
+}
+
+#services {
+    background-color:rgb(245, 231, 231);
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 footer li {
