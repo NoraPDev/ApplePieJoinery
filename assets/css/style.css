@@ -292,6 +292,15 @@ img {
     text-transform: uppercase;
 }
 
+#form-content {
+    font-size: 1.5em;
+}
+
+.text-input {
+    height: 2em;
+    width: auto;
+}
+
 footer li {
     width: 10em;
     list-style: none;  
