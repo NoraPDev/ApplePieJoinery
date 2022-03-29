@@ -11,15 +11,20 @@ body {
 
 #home {
     overflow: auto;
+    height: 40em;
+    width: 100%;
+}
+
+#home-image {
     background-image: url(../photos/IMG_4523.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 40em;
-    width: 100%;
     background-size: cover;
     animation-name: main-image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    height: 100%;
+    width: 100%;
 }
 
 @keyframes main-image-zoom {
@@ -82,6 +87,7 @@ header {
     height: 3em;
     width: 100%;
     top: 0;
+    z-index: 2;
 }
 
 #welcome-top {
@@ -205,9 +211,6 @@ img {
     max-width: 100%;    
 }
 
-#kitchen {
-  
-}
 
 #contact-us {   
     background-color:rgb(245, 231, 231);
