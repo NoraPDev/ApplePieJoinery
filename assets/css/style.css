@@ -93,10 +93,13 @@ header {
 #welcome-top {
     color: black;
     text-transform: uppercase;
-    font-size: 160%;
+    font-size: 100%;
     text-align: center;
     background-color: rgb(245, 231, 231, .6);
     padding-top: 1em;
+    position: absolute;
+    top: 5em;
+    width: 100%;
 }
 
 #welcome-top:hover {
@@ -106,11 +109,11 @@ header {
 #welcome-text {
     color: black;
     text-align: center;
-    font-size: 140%;
+    font-size: 100%;
     background-color: rgb(245, 231, 231, .6);
-    height: 4.5em;
-    position: relative;
-    top: 8em;
+    height: 5em;
+    position: absolute;
+    top: 25em;
 }
 
 #welcome-text:hover {
