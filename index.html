@@ -126,22 +126,25 @@
 
     <section id="contact-us">
         <a name="contact-us"/>
-
-        <h2>Contact Us</h2>
-        <table>
-            <tr> 
-                <th>Name: </th>
-                <th>Tibor Bari Joinery</th>
-            </tr>
-            <tr>
-                <th>Phone Number: </th>
-                <td>+447899087813 </td>
-            </tr>   
-            <tr>
-                <th>Opening Hours: </th>
-                <td>Monday-Friday 09:00-18:00</td>
-            </tr>
-        </table>   
+        <div id="contact-title">
+            <h2 id="contact-text">Contact Us</h2>
+        </div>
+        <div>
+            <table>
+                <tr> 
+                    <th>Name: </th>
+                    <th>Tibor Bari Joinery</th>
+                </tr>
+                <tr>
+                    <th>Phone Number: </th>
+                    <td>+447899087813 </td>
+                </tr>   
+                <tr>
+                    <th>Opening Hours: </th>
+                    <td>Monday-Friday 09:00-18:00</td>
+                </tr>
+            </table>   
+        </div>
         <section class="form-section">
             <form method="POST" action="Thank you for your message!" class="contact-us">
                 <h2>Email us for an enquiry</h2>
@@ -154,9 +157,11 @@
                 <label for="email">Email Address</label>
                 <input type="email" id="email" class="text-input" name="email_address" required>
 
+                <br>
                 <label for="message">Enquiry</label>
                 <input id="message" class="text-input" name="message" type="text" required>
                       
+                <br>
                 <label for="phone">Call me back</label>
                 <input type="radio" id="phone" name="contact-method" value="phone" required>
                 <label for="email">Email me back</label>
