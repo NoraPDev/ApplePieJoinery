@@ -249,6 +249,11 @@ img {
     transform: scale(1.1);
 }
 
+#contact-table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #contact-us {   
     background-color:rgb(245, 231, 231);
