@@ -190,6 +190,7 @@ header {
     padding: 0;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
 .service-content {
@@ -198,7 +199,7 @@ header {
 }
 
 .service-content div {
-    width: 33.3%;
+    width: 30.5%;
 }
 
 .service-content div img {
@@ -208,6 +209,18 @@ header {
 img {
     vertical-align: middle;
     border-style: none;
+}
+
+#furniture {
+    margin: 1em;
+}
+
+#kitchen {
+    margin: 1em;
+}
+
+#staircase {
+    margin: 1em;
 }
 
 .wardrobe {
