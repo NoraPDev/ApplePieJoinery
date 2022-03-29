@@ -195,13 +195,14 @@ header {
 .service-content {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 0;
-    margin-right: 0;
-    box-sizing: border-box;
 }
 
-.line-one {
-    width: 33.33%;
+.service-content div {
+    width: 33.3%;
+}
+
+.service-content div img {
+    width: 100%;
 }
 
 img {
@@ -220,6 +221,7 @@ img {
     margin-right: 0;
     margin-left: 0;
     width: 100%;
+    overflow: auto;
 }
 
 #contact-title {
