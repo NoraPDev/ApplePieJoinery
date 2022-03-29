@@ -161,7 +161,7 @@ header {
 }
 
 .card-box:hover {
-    background-color: rgb(175, 162, 162);
+    background-color: rgb(167, 151, 151);
     color: rgb(245, 231, 231);
 }
 
@@ -179,7 +179,7 @@ header {
 .service-main {
     text-align: center;
     display: block;
-    padding: 6em 0em;
+    padding: 3em 0em;
     font-size: 30px;
     text-transform: uppercase;
 }
@@ -227,6 +227,14 @@ img {
 .wardrobe {
     padding: 0em;
     max-width: 100%;    
+}
+
+.references {
+    text-align: center;
+    display: block;
+    padding: 3em 0em;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 #circle-img div img {
