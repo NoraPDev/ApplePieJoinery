@@ -215,6 +215,12 @@ img {
     max-width: 100%;    
 }
 
+#circle-img div img {
+    height: 100%;
+    border-radius: 50%;
+    width: 33%;
+}
+
 
 #contact-us {   
     background-color:rgb(245, 231, 231);
