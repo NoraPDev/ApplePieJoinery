@@ -161,7 +161,8 @@ header {
 }
 
 .card-box:hover {
-    font-style: italic;
+    background-color: rgb(175, 162, 162);
+    color: rgb(245, 231, 231);
 }
 
 #services {
