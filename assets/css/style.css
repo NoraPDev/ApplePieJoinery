@@ -9,6 +9,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* main image and welcome text */
+
 #home {
     overflow: auto;
     height: 40em;
@@ -20,6 +22,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
+    /* animates zoom effect on loading page */
     animation-name: main-image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -27,6 +31,7 @@ body {
     width: 100%;
 }
 
+/* creates the level of zoom for welcome image */
 @keyframes main-image-zoom {
     from{
         transform: scale(1);
@@ -36,14 +41,7 @@ body {
     }
 }
 
-
-#references {
-    background-color: rgb(245, 231, 231, .9);
-}
-
-#contact-us {
-    background-color: rgb(245, 231, 231, .9);
-}
+/* navigation links */
 
 nav {
     height: 3em;
@@ -128,6 +126,9 @@ header {
     margin-top: 5em;
 }   
 
+
+/* detailed description */
+
 .home-content {
     min-height: 32em;
     display: inline-flex;
@@ -164,6 +165,8 @@ header {
     background-color: rgb(167, 151, 151);
     color: rgb(245, 231, 231);
 }
+
+/* services */
 
 #services {
     background-color:rgb(245, 231, 231);
@@ -230,6 +233,12 @@ img {
     max-width: 100%;    
 }
 
+/* references */
+
+#references {
+    background-color: rgb(245, 231, 231, .9);
+}
+
 .references {
     text-align: center;
     display: block;
@@ -248,6 +257,8 @@ img {
 #circle-img div img:hover {
     transform: scale(1.1);
 }
+
+/* contact us */
 
 #contact-table {
     text-align: center;
@@ -276,6 +287,8 @@ img {
     text-decoration: underline;
 }
 
+/* enquiry form */
+
 .form-section {
     height: 90px;
     width: 100%;
@@ -300,6 +313,8 @@ img {
     height: 2em;
     width: auto;
 }
+
+/* footer */
 
 footer li {
     width: 10em;
