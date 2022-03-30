@@ -249,14 +249,22 @@ img {
 }
 
 #circle-img div img {
-    height: 100%;
-    border-radius: 50%;
-    width: 33%;
+    height: 90%;
+    border-radius: 1em;
+    width: 90%;
 }
 
 #circle-img div img:hover {
     transform: scale(1.1);
 }
+
+#circle-img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+#circle-img div {
+    width: 33%;
+  }
 
 /* contact us */
 
@@ -272,6 +280,7 @@ img {
     margin-left: 0;
     width: 100%;
     overflow: auto;
+    height: 65em;
 }
 
 #contact-title {
