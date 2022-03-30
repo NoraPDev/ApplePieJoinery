@@ -12,7 +12,7 @@ body {
 /* main image and welcome text */
 
 #home {
-    overflow: auto;
+    overflow: hidden;
     height: 40em;
     width: 100%;
 }
