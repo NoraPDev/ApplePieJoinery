@@ -24,7 +24,7 @@ The goal is to reach out to people who are potential customers and create the mo
  ![John](assets/photos/john.png)
  ![Linda](assets/photos/linda.png)
 
-* Charlotte is after a quick quote for her parents, which is available from the website, as there is a possibility to send a quick message straight away as an inquiry, or get on Facebook, Instagram, Twitter, YouTube, since she is present on all social media platforms. She is also using the website from her phone, which is possible, since the media queries are in place and working. 
+* Charlotte is a young university student with a tech knowledge. She is after a quick quote for her parents, which is available from the website, as there is a possibility to send a quick message straight away as an inquiry, or get on Facebook, Instagram, Twitter, YouTube, since she is present on all social media platforms. She is also using the website from her phone, which is possible, since the media queries are in place and working. 
 
 * John is a professional, who has his own ideas about his new kitchen. He can find the website easily with the tight keywords in Google and make his dream kitchen come true in one click in the enquiry section.
 
