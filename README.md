@@ -31,18 +31,20 @@ The goal is to reach out to people who are potential customers and create the mo
 * Linda is a homeowner, retired, enjoying her life, but not very comfortable with using her PC or the internet. She needs the website to be very user friendly, also easy to search and look through. She also needs an easy enquiry option, as she prefers picking up the phone, so the Contact Us section needs to be visible straight on the top. 
 
 
-### **Wireframes**
-To help organise how I was going to approach building the site I first got my initial ideas down onto some wireframe to help guide me through the basic layout of the site as I implemented various features. 
-Links to the different pages:
-* [Homepage (About)](docs/wireframes/home-about.png)
-* [Club Sessions page](docs/wireframes/club-sessions.png)
-* [Join Us page](docs/wireframes/join-us.png)
+### **Wireframe**
+The initial idea of the website was created in Balsamiq, to help me guide through the building stage as the different features have been added. 
+As the website became more and more visually attractive, it was clear that some features were missing, therefore I had to make some additional implementations, for it to be user friendly and better from a sales perspectives.
 
-There was some deviation from the initial design as I implemented each page to improve the user experience but in general I stayed true to the initial design.
+Links
+* [Home](assets/photos/home.png)
+* [Services](assets/photos/services.png)
+* [References](assets/photos/references.png)
+* [Contact Us](assets/photos/contactus.png)
 
 ### **Color Scheme**
-I chose a color scheme that was in keeping with the Flukey Feathers color scheme (#990000) whilst also being  easy to read for the user, through the use of back ground images and the navigation / footer color schemes, opting for a smokey white background (#f5f5f5) and dark grey text (#2d302e) in areas where these weren't used. I used (https://userway.org/) to check the contrasting colors worked well.
- * Main background
- ![Main Background color scheme](docs/read-me/contrast-check-main-bg.png)
- * Navigation and Footer
- ![Navigation and Footer](docs/read-me/contrast-check-nav-footer.png)
+Initially I chose the colors to be true to the main welcome picture using only my own eyes as a judge, however later on I used the below colour scheme to help with the right contrasts and shades. 
+In my opinion this color being a pastel colour scheme is not too aggressive for a user, therefore it is comfortable on the eyes. 
+I wanted the website to be easily readable and color blind friendly as well.
+
+ * Colour scheme used
+ ![color scheme](assets/photos/color-scheme.png)
