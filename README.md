@@ -41,7 +41,7 @@ Links
 * [References](assets/photos/references.png)
 * [Contact Us](assets/photos/contactus.png)
 
-### **Color Scheme**
+### **Colour Scheme**
 Initially I chose the colors to be true to the main welcome picture using only my own eyes as a judge, however later on I used the below colour scheme to help with the right contrasts and shades. 
 In my opinion this color being a pastel colour scheme is not too aggressive for a user, therefore it is comfortable on the eyes. 
 I wanted the website to be easily readable and color blind friendly as well.
