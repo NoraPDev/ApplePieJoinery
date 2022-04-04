@@ -240,7 +240,7 @@ header {
 
 #services-content {
     width: 100%;
-    display: block;
+    display: flex;
     box-sizing: border-box;
     padding: 0;
     margin-right: auto;
@@ -251,6 +251,7 @@ header {
 .service-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .service-content div {
@@ -267,15 +268,15 @@ img {
 }
 
 #furniture {
-    margin: 1em;
+    padding: 1em;
 }
 
 #kitchen {
-    margin: 1em;
+    padding: 1em;
 }
 
 #staircase {
-    margin: 1em;
+    padding: 1em;
 }
 
 .wardrobe {
@@ -302,6 +303,8 @@ img {
     height: 90%;
     border-radius: 1em;
     width: 90%;
+    display: flex;
+    
 }
 
 #circle-img div img:hover {
@@ -311,6 +314,7 @@ img {
 #circle-img {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 #circle-img div {
     width: 33%;
@@ -318,6 +322,9 @@ img {
 
 /* contact us */
 
+#contact-title {
+    padding-top: 5%;
+}
 #contact-text {
     text-align: center;
     display: block;
@@ -359,7 +366,15 @@ img {
 }
 
 .text-input {
-    width: 100%;
+    width: 30%;
+    height: 1.6rem;
+    margin: 5px 0 1.6rem 0;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
+.number-input {
+    width: 30%;
     height: 1.6rem;
     margin: 5px 0 1.6rem 0;
     border: 1px solid #000;
@@ -398,7 +413,7 @@ img {
     width: 100%;
     display: grid;
 
-    
+
 }
 
 .contact-details {
