@@ -318,60 +318,94 @@ img {
 
 /* contact us */
 
-#contact-table {
+
+#contact-section {
+    padding-bottom: 6.3rem;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    overflow: hidden;
 }
 
-#contact-us {   
-    background-color:rgb(245, 231, 231);
-    margin-right: 0;
-    margin-left: 0;
-    width: 100%;
-    overflow: auto;
-    height: 65em;
+.contact-content {
+    display: grid;
+
+    gap: 1rem;
+    text-align: left;
+    padding: 0 0.6rem;
 }
 
-#contact-title {
+.enquiry-div {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.message-us {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.message-us-header {
     text-align: center;
-}
-
-#contact-text {
-    text-align: center;
-    display: block;
-    padding: 3em 0em;
-    font-size: 30px;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-/* enquiry form */
-
-.form-section {
-    height: 90px;
-    width: 100%;
-    margin: 0;
-}
-
-#message {
-    height: 10em;
-    width: 30em;
-    vertical-align: top;
-}
-
-.email-title {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#form-content {
-    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 1.3rem;
 }
 
 .text-input {
-    height: 2em;
-    width: auto;
+    width: 100%;
+    height: 1.6rem;
+    margin: 5px 0 1.6rem 0;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
+
+.text-area {
+    margin: 0;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
+.contact-us-button {
+    background: #bda8a8;
+    background-image: -webkit-linear-gradient(top, #bda8a8, #524949);
+    background-image: -moz-linear-gradient(top, #bda8a8, #524949);
+    background-image: -ms-linear-gradient(top, #bda8a8, #524949);
+    background-image: -o-linear-gradient(top, #bda8a8, #524949);
+    background-image: linear-gradient(to bottom, #bda8a8, #524949);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: 45%
+}
+
+#contact-details {
+    height:100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content);
+    
+}
+
+.contact-details {
+    justify-self: center;
+    text-align: center;
+    
+}
+
+.contact-table {
+    text-align: center;
+}
+
+#google-maps {
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 /* footer */
