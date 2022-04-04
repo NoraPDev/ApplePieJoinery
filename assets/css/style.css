@@ -161,10 +161,43 @@ header {
     font-size: 130%;
 }
 
-.card-box:hover {
-    background-color: rgb(167, 151, 151);
-    color: rgb(245, 231, 231);
+
+#contact-button {
+    background: #bda8a8;
+    background-image: -webkit-linear-gradient(top, #bda8a8, #524949);
+    background-image: -moz-linear-gradient(top, #bda8a8, #524949);
+    background-image: -ms-linear-gradient(top, #bda8a8, #524949);
+    background-image: -o-linear-gradient(top, #bda8a8, #524949);
+    background-image: linear-gradient(to bottom, #bda8a8, #524949);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
 }
+#contact-button:hover {
+    text-decoration: none;
+}
+
+#home-design {
+    text-align: center;
+}
+
+#home-love {
+    text-align: center;
+}
+#home-draft {
+    text-align: center;
+}
+#home-plan {
+    text-align: center;
+}
+
 
 /* services */
 
