@@ -318,6 +318,14 @@ img {
 
 /* contact us */
 
+#contact-text {
+    text-align: center;
+    display: block;
+    padding: 1em 0em;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
 
 #contact-section {
     padding-bottom: 6.3rem;
@@ -347,6 +355,7 @@ img {
     text-align: center;
     color: #000;
     margin-bottom: 1.3rem;
+    font-size: 20px;
 }
 
 .text-input {
@@ -388,14 +397,14 @@ img {
     height:100%;
     width: 100%;
     display: grid;
-    grid-template-rows: minmax(min-content, max-content);
+
     
 }
 
 .contact-details {
     justify-self: center;
     text-align: center;
-    
+
 }
 
 .contact-table {
@@ -411,7 +420,7 @@ img {
 /* footer */
 
 footer li {
-    width: 10em;
+    width: 5em;
     list-style: none;  
 }
 
