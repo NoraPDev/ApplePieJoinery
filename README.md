@@ -26,11 +26,11 @@ You can view the live site here - <a href="https://norapdev.github.io/ApplePieJo
  ![John](assets/photos/john.png)
  ![Linda](assets/photos/linda.png)
 
-* Charlotte is a young university student with a tech knowledge. She is after a quick quote for her parents, which is available from the website, as there is a possibility to send a quick message straight away as an inquiry, or get on Facebook, Instagram, Twitter, YouTube, since she is present on all social media platforms. She is also using the website from her phone, which is possible, since the media queries are in place and working. 
+* Charlotte is a young university student with a tech knowledge. She is after a quick quote for her parents, which is available from the website, as there is a possibility to send a quick message straight away as an inquiry, or get on Facebook, Instagram, Twitter, YouTube, since she is present on all social media platforms. She is also using the website from her phone, which is possible, since the media queries are in place and working. Charlotte being young, would enjoy the animated welcome page and hovering effects, as it is a selling point for users, who are after fancy looking web designs.
 
-* John is a professional, who has his own ideas about his new kitchen. He can find the website easily with the tight keywords in Google and make his dream kitchen come true in one click in the enquiry section.
+* John is a professional, who has his own ideas about his new kitchen. He can find the website easily with the right keywords in Google and make his dream kitchen come true in one click in the enquiry section.
 
-* Linda is a homeowner, retired, enjoying her life, but not very comfortable with using her PC or the internet. She needs the website to be very user friendly, also easy to search and look through. She also needs an easy enquiry option, as she prefers picking up the phone, so the Contact Us section needs to be visible straight on the top. 
+* Linda is a homeowner, retired, enjoying her life, but not very comfortable with using her PC or the internet. She needs the website to be very user friendly, also easy to search, look through and easily visible. She also needs an easy enquiry option, as she prefers picking up the phone, so the Contact Us section needs to be visible straight on the top. 
 
 
 ### **Wireframe**
