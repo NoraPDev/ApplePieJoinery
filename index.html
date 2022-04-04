@@ -38,7 +38,7 @@
     </header>
 
     <!-- Home Section -->
-    
+
     <section id="home">
         <a name="home"/>
         <div id="home-image">
@@ -153,64 +153,66 @@
 
     <section id="contact-us">
         <a name="contact-us"/>
-        <div id="contact-title">
-            <h2 id="contact-text">Contact Us</h2>
-        </div>
-        <div>
-            <table id="contact-table">
-                <tr> 
-                    <th>Name: </th>
-                    <th>Tibor Bari Joinery</th>
-                </tr>
-                <tr>
-                    <th>Phone Number: </th>
-                    <td>+447899087813 </td>
-                </tr>   
-                <tr>
-                    <th>Opening Hours: </th>
-                    <td>Monday-Friday 09:00-18:00</td>
-                </tr>
-            </table>   
+        <div id="contact-section">
+            <div id="contact-title">
+                <h2 id="contact-text">Contact Us</h2>
+            </div>
             <br>
-            <br>
-            <div style="width: 100%">
-                <iframe title="Come Find Us" width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Old%20Market%20square%20Nottingham+(Applepie%20Joinery)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/marine-gps/">ship tracker</a></iframe>
+            <div class="contact-content">
+                <div class="enquiry-div">
+                    <form action="https://formdump.codeinstitute.net/" method="post" class="message-us">
+                        <div class="message-us-header">
+                            <i class="fas fa-headset fa-2x"></i>
+                            <h3>Get in touch!</h3>
+                        </div>
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" class="text-input" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="text-input" required>
+                        <br>
+                        <label for="message">Send Us A Message</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10" class="text-area"></textarea>
+
+                        <input type="submit" class="contact-us-button" value="Send message">
+                    </form>
+                </div>
+                <div id="contact-details">
+                    <div class="contact-details">
+                        <table>
+                            <tr>
+                                <td class="contact-table">
+                                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><h3>Our Address</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Old Market Square</td>
+                            </tr>
+                            <tr>
+                                <td>Nottingham</td>
+                            </tr>
+                            <tr>
+                                <td>NG1 2DT</td>
+                            </tr>
+                            <tr>
+                                <td>Tel: +447899087813</td>
+                            </tr>
+                            <tr>
+                                <td>Monday-Friday 09:00-18:00</td>
+                            </tr>
+                        </table> 
+                        <br>
+                    </div>
+                    <div style="width: 100%">
+                        <iframe id="google-maps" title="Come Find Us" width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Old%20Market%20square%20Nottingham+(Applepie%20Joinery)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/marine-gps/">ship tracker</a></iframe>
+                    </div>
+                </div>
             </div>
         </div>
-        <br>
-        <br>
-
-        <section class="form-section">
-            <form method="POST" action="" class="contact-us">
-                <h2 class="email-title">Email us for an enquiry</h2>
-                <br>
-                <br>
-                <div id="form-content">
-                    <label for="name">Full Name</label>
-                    <input id="name" class="text-input" name="full_name" type="text" required="" placeholder="Full Name">
-                    
-                    <label for="phone">Phone number</label>
-                    <input type="tel" id="phone" class="text-input" name="phone" required="" placeholder="Phone Number">
-
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" class="text-input" name="email_address" required="" placeholder="Email Address">
-
-                    <br>
-                    <label for="message">Enquiry</label>
-                    <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
-                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                        
-                    <br>
-                    <label for="phone">Call me</label>
-                    <input type="radio" id="phone" name="contact-method" value="phone" required>
-                    <label for="email">Email me</label>
-                    <input type="radio" id="email" name="contact-method" value="email" required>
-                
-                    
-                    <input class="contact-button" type="submit" value="Send" style="height:50px; width:100px;">
-                </div>
-            </form>
-        </section> 
     </section>
     
     <!-- Footer -->
