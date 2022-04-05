@@ -32,6 +32,14 @@ You can view the live site here - <a href="https://norapdev.github.io/ApplePieJo
 
 * Linda is a homeowner, retired, enjoying her life, but not very comfortable with using her PC or the internet. She needs the website to be very user friendly, also easy to search, look through and easily visible. She also needs an easy enquiry option, as she prefers picking up the phone, so the Contact Us section needs to be visible straight on the top. 
 
+### **User Stories**
+* As a user, I want to see a pure and clean site with a design that is comfortable to look at.
+* As a user, I want to be able learn about the company and what they can offer, so I can decide easily.
+* As a user, I want to be able to search for the different services they are capable of.
+* As a user, I want to be able to see reference photos, so I can see exactly what the company made previously for other users.
+* As a user, I want to be able to contact the company quickly and instantly.
+* As a user, I want to be able to make a request for a quotation the most convenient and painless way.
+* As a user, I want to be able to decide how to contact the company, via email, telephone or social media.
 
 ### **Wireframe**
 The initial idea of the website was created in Balsamiq, to help me guide through the building stage as the different features have been added. 
