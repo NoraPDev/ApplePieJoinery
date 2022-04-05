@@ -51,13 +51,15 @@ Links
 * [References](assets/photos/references.png)
 * [Contact Us](assets/photos/contactus.png)
 
-### **Colour Scheme**
+### **Colour Scheme and Font Choice**
 Initially I chose the colors to be true to the main welcome picture using only my own eyes as a judge, however later on I used the below colour scheme to help with the right contrasts and shades. 
 In my opinion this color being a pastel colour scheme is not too aggressive for a user, therefore it is comfortable on the eyes. 
 I wanted the website to be easily readable and color blind friendly as well.
 
  * Colour scheme used
  ![color scheme](assets/photos/color-scheme.png)
+
+ I have chosen Poppins font from Google Fonts as I believe is it a clean and readable font type, even with a colourful background or hover effect.
 
 ## **Features Common to all Pages**
 ### **Welcome Image**
