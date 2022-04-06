@@ -144,6 +144,7 @@ I have followed the steps below for deployment:
 ## **Technology Used**
 
 ![html-css](assets/photos/logo.png)
+
 I have used HTML5 and CSS3 to build this website. 
 
 **HTML5**
