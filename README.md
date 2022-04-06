@@ -128,7 +128,7 @@ The codes are all validated by [W3C HTML Validator](https://validator.w3.org/) a
 
 #### **WCAG Report**
 
-* I have tested the site with [WCAG](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf?hl=en) for any color blindness or contrast issues. The test is showing one contrast issue with the contact buttons on the cardboxes.
+* I have tested the site with [WCAG](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf?hl=en) for any color blindness issues or contrast issues. The test is showing one contrast issue with the contact buttons on the cardboxes.
 
 ## **Deployment**
 I have followed the steps below for deployment:
@@ -151,3 +151,33 @@ Used to add content and structure to the website
 
 **CSS3** 
 Used to add style to the content
+
+## **Credits**
+
+### **Content**
+* The text was mainly formed by me and the real joinery friend of mine, Tibor Bari, but also used a few technical terms and ideas from below sites
+
+    *[Russian joinery company specialised in kitchens](https://www.tvoytseh.ru)
+    
+    *[Barr Joinery](https://www.barrjoinery.co.uk)
+
+    *[lindauer](https://www.lindauerag.ch)
+
+    *[Luxury Door Solutions](https://d0nni387.github.io/Luxury-Door-Solutions)
+
+* The inspirations behind the Readme template:
+
+    *https://github.com/gibbo101/flukey-feathers-badminton/blob/main/README.md
+
+    *https://github.com/Elvira-94/natural-clean/blob/main/README.md
+
+* As this is my first project in HTML and CSS, it was influenced by the study material as well, namely the Love Running project from Code Institute material.
+* I have also used Google, W3 school, YouTube to get more understanding on specific areas.
+* Icons used are from [Font Awesome](https://fontawesome.com/)
+
+### **Media**
+* Unfortunately none of the photos are real, they have been provided by [Pixabay](https://www.pixabay.com) and [Pexels](https://www.pexels.com/).
+
+### **Thanks**
+* I would like to say thank you to my mentor, Richard Wells, who supported me throughout this project very patiently.
+* I also would like to thank you to my friend, Zoltan Siegl, for his help and support.
