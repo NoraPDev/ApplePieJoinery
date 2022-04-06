@@ -113,4 +113,5 @@ The website still needs some improvements and additional features:
 * A login page, with an additional database to store the quotes for customers, so regular customers can keep track of their requests
 * Video chat function
 * An affiliate links page to any subcontractor, raw material supplier
+* Customer review section
 
