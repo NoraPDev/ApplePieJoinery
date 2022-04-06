@@ -156,7 +156,7 @@ Used to add style to the content
 ## **Credits**
 
 ### **Content**
-* The text was mainly formed by me and the real joinery friend of mine, Tibor Bari, but also used a few technical terms and ideas from below sites
+* The text was mainly formed by me and the real joinery friend of mine, Tibor Bari, but also used a few technical terms and ideas from the sites below:
 
     *[Russian joinery company specialised in kitchens](https://www.tvoytseh.ru)
     
