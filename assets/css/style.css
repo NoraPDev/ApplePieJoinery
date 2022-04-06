@@ -163,7 +163,7 @@ header {
 }
 
 
-#contact-button {
+.contact-button {
     background: #bda8a8;
     background-image: -webkit-linear-gradient(top, #bda8a8, #524949);
     background-image: -moz-linear-gradient(top, #bda8a8, #524949);
@@ -189,7 +189,7 @@ header {
     
   
 }
-#contact-button:hover {
+.contact-button:hover {
     background: #877979;
     background-image: -webkit-linear-gradient(top, #877979, #ab9f9f);
     background-image: -moz-linear-gradient(top, #877979, #ab9f9f);
