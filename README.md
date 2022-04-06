@@ -11,8 +11,6 @@ You can view the live site here - <a href="https://norapdev.github.io/ApplePieJo
 1. [**Features on Individual Pages**](#features-on-individual-pages)
 1. [**Future Features to be Added**](#future-features-to-be-added)
 1. [**Testing**](#testing)
-1. [**Bugs**](#bugs)
-1. [**Other Changes**](#other-changes)
 1. [**Deployment**](#deployment)
 1. [**Technology Used**](#technology-used)
 1. [**Credits**](#credits)
@@ -115,3 +113,41 @@ The website still needs some improvements and additional features:
 * An affiliate links page to any subcontractor, raw material supplier
 * Customer review section
 
+## **Testing**
+
+### **Code Validation**
+
+* I have tested the website on a number of browsers and devices both manually and using the tools below.
+The codes are all validated by [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). A minor warning and errors were found on the index.html when tested, but I have managed to fix them immeditately.<br /><br />
+
+### **Lighthouse Testing**
+
+![Lighthouse Report](assets/photos/lighthouse.png)
+
+### **Site Contrast Testing**
+
+#### **WCAG Report**
+
+* I have tested the site with [WCAG](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf?hl=en) for any color blindness or contrast issues. The test is showing one contrast issue with the contact buttons on the cardboxes.
+
+## **Deployment**
+I have followed the steps below for deployment:
+
+1. Find the correct repository on GitHub
+1. On the repository site, click on **Settings**
+1. There is a menu on the left, click on **Pages**
+1. Under the source section, change the **Branch** type to **main** and then click **Save**
+1. The section above will indicate that the site is ready to be published and then it will change to **published**.
+![published](assets/photos/deployment.png)
+
+
+## **Technology Used**
+
+![html-css](assets/photos/logo.png)
+I have used HTML5 and CSS3 to build this website. 
+
+**HTML5**
+Used to add content and structure to the website
+
+**CSS3** 
+Used to add style to the content
