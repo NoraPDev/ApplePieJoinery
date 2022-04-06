@@ -143,7 +143,7 @@ I have followed the steps below for deployment:
 
 ## **Technology Used**
 
-![html-css](assets/photos/logo.png)
+![html-css](assets/photos/logo.jpeg)
 
 I have used HTML5 and CSS3 to build this website. 
 
