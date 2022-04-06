@@ -107,3 +107,10 @@ I wanted the website to be easily readable and color blind friendly as well.
 ![Contact Us](assets/photos/contact-us.png)
 * This section is the most important section on the website, as the customer can make contact and business can happen.
 * It is possible to send a message, but also to use the other contact details there, eg: to make a phone call during the mentioned opening hours.
+
+## **Future Features to be Added**
+The website still needs some improvements and additional features:
+* A login page, with an additional database to store the quotes for customers, so regular customers can keep track of their requests
+* Video chat function
+* An affiliate links page to any subcontractor, raw material supplier
+
