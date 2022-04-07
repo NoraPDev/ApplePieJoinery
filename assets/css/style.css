@@ -51,7 +51,6 @@ nav {
 
 nav li {
     float: left;
-    width: 10em;
     list-style: none;    
 }
 
@@ -72,6 +71,7 @@ nav li {
 .nav-link {
     text-decoration: none;
     color: white;
+    margin: 2rem
 }
 #navbar {
     background-color: rgb(71, 64, 51);
@@ -107,11 +107,12 @@ header {
 #welcome-text {
     color: black;
     text-align: center;
-    font-size: 120%;
+    font-size: 1.2rem;
     background-color: rgb(245, 231, 231, .7);
-    height: 5em;
+    height: auto;
     position: absolute;
     top: 22em;
+    width: 100%;
 }
 
 #welcome-text:hover {
@@ -131,19 +132,19 @@ header {
 
 .home-content {
     min-height: 39em;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgb(71, 64, 51);
     overflow: visible;
 
 }
 
+
 .card-box {
     display: block;
-    width: 35%;
+    width: 25%;
     min-height: 15em; 
-    float: left; 
     border: 1px solid grey;
-    margin: 1em;
     padding: 1em;
     background-color: rgb(245, 231, 231);
     overflow: hidden;
@@ -255,7 +256,7 @@ header {
 }
 
 .service-content div {
-    width: 30.5%;
+    width: 33%;
 }
 
 .service-content div img {
@@ -431,10 +432,9 @@ img {
     text-align: center;
 }
 
-#google-maps {
+iframe {
     width: 100%;
     height: 100%;
-    border: 0;
 }
 
 /* footer */
@@ -464,18 +464,12 @@ footer li {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     .welcome {
-        width: 65%;
-        height: 1200px;
+        width: 100%;
         margin: 0 auto;
         padding: 30px 0;
         margin: 0;
     }
 
-    .home-content {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
 
     #services-content {
         clear: both;
@@ -483,10 +477,28 @@ footer li {
         float: left;
         padding: 0;
     }
+
+    #welcome-text {
+        background-color: rgb(245, 231, 231, .9);
+        top: 15rem;
+    }
 }
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
+
+    .nav-link {
+        margin: 1rem
+    } 
+
+    nav li {
+        float: left;
+        list-style: none;    
+    }
+
+    .service-content div {
+        width: 50%;
+    }
 
     #navbar-list {
         clear: left;
@@ -501,10 +513,54 @@ footer li {
     }
 
     .home-content {
-        width: 90%;
-        height: 1200px;
+        width: 100%;
+        height: auto;
         margin: 0 auto;
+    }
+
+    .card-box {
+    width: 50%;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
+    #circle-img div {
+        width: 50%;
     }
 
 }
 
+@media screen and (max-width: 568px) {
+
+
+.nav-link {
+    font-size: .8rem;
+    margin: auto 0.5rem;
+}   
+
+    .home-link {
+        display: none;
+    }
+
+    .card-box {
+        width: 100%;
+    }
+
+    #welcome-text {
+        font-size: 1rem;
+    }
+
+    .service-content div {
+        width: 100%;
+    }
+    
+    #circle-img div img {
+        width: 100%;
+    }
+
+    #circle-img div {
+        width: 100%;
+    }
+}
