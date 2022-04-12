@@ -347,16 +347,19 @@ img {
 }
 
 .contact-content {
-    display: grid;
-
+    display: flex;
     gap: 1rem;
     text-align: left;
     padding: 0 0.6rem;
 }
 
 .enquiry-div {
-    display: grid;
+    width: 50%;
     grid-template-columns: 1fr;
+}
+
+.enquiry-div label {
+    display:block;
 }
 
 .message-us {
@@ -411,7 +414,7 @@ img {
     font-size: 15px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    margin-left: 45%
+    margin-left: 40%;
 }
 
 #contact-details {
@@ -432,10 +435,13 @@ img {
     text-align: center;
 }
 
-iframe {
+#google-maps {
     width: 100%;
-    height: 100%;
+    height: 25em;
+    border: none;
+
 }
+
 
 /* footer */
 
@@ -471,18 +477,21 @@ footer li {
     }
 
 
-    #services-content {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
     #welcome-text {
         background-color: rgb(245, 231, 231, .9);
         top: 15rem;
     }
+
+    .contact-content {
+        display: block;
+    }
+
+    .enquiry-div {
+        width: auto;
+    }
+
 }
+
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
