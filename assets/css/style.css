@@ -375,7 +375,7 @@ img {
 }
 
 .text-input {
-    width: 30%;
+    width: 60%;
     height: 1.6rem;
     margin: 5px 0 1.6rem 0;
     border: 1px solid #000;
@@ -482,6 +482,9 @@ footer li {
         top: 15rem;
     }
 
+    .text-input {
+        width: 100%;
+    }
 
 }
 
