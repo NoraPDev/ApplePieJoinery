@@ -310,6 +310,7 @@ img {
 
 #circle-img div img:hover {
     transform: scale(1.1);
+    transition-duration: 1s;
 }
 
 #circle-img {
