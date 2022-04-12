@@ -14,6 +14,7 @@ You can view the live site here - <a href="https://norapdev.github.io/ApplePieJo
 1. [**Future Features to be Added**](#future-features-to-be-added)
 1. [**Testing**](#testing)
 1. [**Deployment**](#deployment)
+1. [**Bugs**](#bugs)
 1. [**Technology Used**](#technology-used)
 1. [**Credits**](#credits)
 
@@ -147,6 +148,19 @@ I have followed the steps below for deployment:
 1. Under the source section, change the **Branch** type to **main** and then click **Save**
 1. The section above will indicate that the site is ready to be published and then it will change to **published**.
 ![published](assets/photos/deployment.png)
+
+## **Bugs**
+I have found a couple of errors during developing the site, for example:
+
+1.
+* Problem :lady_beetle: : When pressed **Send message** button, it produces an error.
+* Cause :hammer_and_spanner: : There was no action given to the form in the **Contact Us** section. 
+* Resolution :white_tick: : Gave "https://formdump.codeinstitute.net/", as per Love Running.
+
+2.
+* Problem :lady_beetle: : Images in the **OurServices** section were not aligned properly, some were different size and could not do a symmetric grid.
+* Cause :hammer_and_spanner: : As it turned out, some of the images were actually different sizes, so I have amended them.
+* Resolution :white_tick: : All photos are now symmetric and I have also changed it to display: flex, as it was more suitable in this case.
 
 
 ## **Technology Used**
