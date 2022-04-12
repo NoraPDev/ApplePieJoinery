@@ -1,5 +1,7 @@
 # **ApplePie Joinery**
 
+![Responsive Design](assets/photos/Screenshot%202022-04-12%20at%2013.20.19.png)
+
 ApplePie Joinery is a website that is designed for users who are looking for custom made woodwork/joinery work to be done (eg: their dream kitchen, wardrobe, any kind of ideas involving wood). 
 The goal is to reach out to people who are potential customers and create the most enjoyable user experience while surfing on the website. Helping users to go from the Enquiry stage through to Assembly, while make it easy even for the users who are not the most familiar with computer use. 
 
