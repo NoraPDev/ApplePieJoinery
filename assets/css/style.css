@@ -344,6 +344,7 @@ img {
     padding-bottom: 0;
     text-align: center;
     overflow: hidden;
+    background-color: rgba(228, 213, 213, 0.9);
 }
 
 .contact-content {
@@ -448,6 +449,10 @@ img {
 footer li {
     width: 5em;
     list-style: none;  
+}
+
+#footer-menu {
+    background: rgb(245, 231, 231);
 }
 
 #social-media-links {
