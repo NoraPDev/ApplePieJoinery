@@ -114,6 +114,7 @@ The website still needs some improvements and additional features:
 * Video chat function
 * An affiliate links page to any subcontractor, raw material supplier
 * Customer review section
+* Booking appointments with the joiner
 
 ## **Testing**
 
