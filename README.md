@@ -121,6 +121,7 @@ The website still needs some improvements and additional features:
 
 * I have tested the website on a number of browsers and devices both manually and using the tools below.
 The codes are all validated by [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). A minor warning and errors were found on the index.html when tested, but I have managed to fix them immeditately.<br /><br />
+[![Valid CSS!](https://jigsaw.w3.org/css-validator/images/vcss)](https://jigsaw.w3.org/css-validator/check/referer)
 
 ### **Lighthouse Testing**
 
