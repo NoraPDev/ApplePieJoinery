@@ -154,13 +154,13 @@ I have found a couple of errors during developing the site, for example:
 
 1.
 * Problem :lady_beetle: : When pressed **Send message** button, it produces an error.
-* Cause :hammer_and_spanner: : There was no action given to the form in the **Contact Us** section. 
-* Resolution :white_tick: : Gave "https://formdump.codeinstitute.net/", as per Love Running.
+* Cause :hammer_and_wrench: : There was no action given to the form in the **Contact Us** section. 
+* Resolution :white_check_mark: : Gave "https://formdump.codeinstitute.net/", as per Love Running.
 
 2.
 * Problem :lady_beetle: : Images in the **OurServices** section were not aligned properly, some were different size and could not do a symmetric grid.
-* Cause :hammer_and_spanner: : As it turned out, some of the images were actually different sizes, so I have amended them.
-* Resolution :white_tick: : All photos are now symmetric and I have also changed it to display: flex, as it was more suitable in this case.
+* Cause :hammer_and_wrench: : As it turned out, some of the images were actually different sizes, so I have amended them.
+* Resolution :white_check_mark: : All photos are now symmetric and I have also changed it to display: flex, as it was more suitable in this case.
 
 
 ## **Technology Used**
