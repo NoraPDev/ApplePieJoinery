@@ -72,6 +72,7 @@ I wanted the website to be easily readable and color blind friendly as well.
 ![Nav Bar](assets/photos/navbar.png)
  * Located at the top, always visible throughout the whole surfing experience to be able to quickly change between pages
  * A hover effect is implemented to the links to highlight where we are, but also to be a little eyecatching
+ * Created the navbar to be sticky, always be on top, so the customer can always have it handy
 
  ### **Footer**
 
