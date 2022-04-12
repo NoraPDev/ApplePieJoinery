@@ -162,6 +162,11 @@ I have found a couple of errors during developing the site, for example:
 * Cause :hammer_and_wrench: : As it turned out, some of the images were actually different sizes, so I have amended them.
 * Resolution :white_check_mark: : All photos are now symmetric and I have also changed it to display: flex, as it was more suitable in this case.
 
+3.
+* Problem :lady_beetle: : Initially the **Contact us** section with the map was underneath each other, even though I wanted them next to each other 
+* Cause :hammer_and_wrench: : Diplay was on grid
+* Resolution :white_check_mark: : I have changed display to flex and now they look good.
+
 
 ## **Technology Used**
 
