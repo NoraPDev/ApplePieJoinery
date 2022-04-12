@@ -482,13 +482,6 @@ footer li {
         top: 15rem;
     }
 
-    .contact-content {
-        display: block;
-    }
-
-    .enquiry-div {
-        width: auto;
-    }
 
 }
 
@@ -537,6 +530,13 @@ footer li {
 
     #circle-img div {
         width: 50%;
+    }
+    .contact-content {
+        display: block;
+    }
+
+    .enquiry-div {
+        width: auto;
     }
 
 }
